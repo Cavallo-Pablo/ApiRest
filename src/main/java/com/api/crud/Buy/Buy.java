@@ -23,8 +23,8 @@ public class Buy {
     @GeneratedValue
     private Integer id;
     @Basic
-    private String amount;
-    private String quantity;
+    private Float amount;
+    private Integer quantity;
 
     @OneToOne
     private User user;
